@@ -1,6 +1,6 @@
 import React from 'react';
 import project1 from "../assets/project1.png"
-import project2 from "../assets/project2.png"
+import project2 from "../assets/pic.jpg"
 import project4 from "../assets/project4.png"
 import project5 from "../assets/project5.png"
 import project6 from "../assets/project6.png"
@@ -10,49 +10,32 @@ import Reveal from './Reveal';
 const projects = [
     {
       img: project1,
-      title: "Project #1",
-      description: "UI for frontend development using React.",
+      title: "Bus Reservation Sysetm",
+      description: "Full Stack Application With React, Node.js and MongoDB",
       links: {
-        site: "#",
-        github: "#",
+        site: "https://github.com/Abishek6702",
+        github: "https://github.com/Abishek6702",
       },
     },
     {
       img: project2,
-      title: "Project #2",
-      description: "A fullstack application built with Node.js and MongoDB.",
+      title: "Portfolio",
+      description: "A frontend application built with React and Tailwind.",
       links: {
-        site: "#",
-        github: "#",
+        site: "https://github.com/Abishek6702",
+        github: "https://github.com/Abishek6702",
       },
     },
     {
       img: project4,
-      title: "Project #3",
-      description: "An e-commerce platform with various features.",
+      title: "AGRO - KING",
+      description: "Agro based platform for farmers with various features.",
       links: {
-        site: "#",
-        github: "#",
+        site: "https://github.com/Abishek6702/Finalyear-Project-AGRO-KING",
+        github: "https://github.com/Abishek6702/Finalyear-Project-AGRO-KING",
       },
     },
-    {
-      img: project5,
-      title: "Project #4",
-      description: "A mobile-friendly application using React Native.",
-      links: {
-        site: "#",
-        github: "#",
-      },
-    },
-    {
-      img: project6,
-      title: "Project #5",
-      description: "A data visualization project using D3.js and other libraries.",
-      links: {
-        site: "#",
-        github: "#",
-      },
-    },
+    
   ]
 
 const Portfolio = () => {
